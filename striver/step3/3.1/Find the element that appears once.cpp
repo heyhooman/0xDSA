@@ -27,6 +27,7 @@ int main()
     cin>>t;
     while(t--)
     {
+        
         cin>>len;
         int arr[len];
         for(int i=0;i<len;i++){
