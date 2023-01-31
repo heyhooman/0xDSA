@@ -33,7 +33,7 @@ Output: false
 Explanation: Since the tree is empty, there are no root-to-leaf paths.
  ```
 
-###Constraints:
+### Constraints:
 
 The number of nodes in the tree is in the range [0, 5000].
 -1000 <= Node.val <= 1000
