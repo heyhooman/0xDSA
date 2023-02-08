@@ -1,0 +1,44 @@
+Intersection Point in Y Shaped Linked Lists
+
+class Solution
+{
+public:
+    int intersectPoint(Node* head1, Node* head2)
+    {
+        // Your Code Here
+        Node*temp1=head1;
+        Node*temp2=head2;
+        int len1=0,len2=0;
+        while(temp1){
+            temp1=temp1->next;
+            len1++;
+        }
+        while(temp2){
+            temp2=temp2->next;
+            len2++;
+        }
+        temp1=head1,temp2=head2;
+        if(len1>len2){
+            int a=len1-len2;
+            while(a--){
+                temp1=temp1->next;
+            }
+            while(temp1->next!=temp2->next){
+                temp1=temp1->next;
+                temp2=temp2->next;
+            }
+            return temp1->next->data;
+        }
+        else{
+            int a=len2-len1;
+          while(a--){
+                temp2=temp2->next;
+            }  
+            while(temp1->next!=temp2->next){
+                temp1=temp1->next;
+                temp2=temp2->next;
+            }
+            return temp1->next->data;
+        }
+    }
+};
