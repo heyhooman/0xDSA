@@ -44,3 +44,4 @@ int main()
     cout << distinctPairs(ideas);
     return 0;
 }
+
