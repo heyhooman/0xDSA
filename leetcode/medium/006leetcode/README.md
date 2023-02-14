@@ -14,11 +14,13 @@ string convert(string s, int numRows);
  
 
 Example 1:
-
+```sh
 Input: s = "PAYPALISHIRING", numRows = 3
 Output: "PAHNAPLSIIGYIR"
-Example 2:
+```
 
+Example 2:
+```sh
 Input: s = "PAYPALISHIRING", numRows = 4
 Output: "PINALSIGYAHRPI"
 Explanation:
@@ -26,14 +28,16 @@ P     I    N
 A   L S  I G
 Y A   H R
 P     I
-Example 3:
+```
 
+Example 3:
+```sh
 Input: s = "A", numRows = 1
 Output: "A"
- 
+```
 
-Constraints:
+### Constraints:
 
-1 <= s.length <= 1000
-s consists of English letters (lower-case and upper-case), ',' and '.'.
-1 <= numRows <= 1000
+- 1 <= s.length <= 1000
+- s consists of English letters (lower-case and upper-case), ',' and '.'.
+- 1 <= numRows <= 1000
