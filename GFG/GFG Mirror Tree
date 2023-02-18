@@ -1,0 +1,20 @@
+Mirror Tree
+Given a Binary Tree, convert it into its mirror.
+class Solution {
+  public:
+    // Function to convert a binary tree into its mirror tree.
+    void mirror(Node* node) {
+        // code here
+        stack<Node*>st;
+        st.push(node);
+        while(!st.empty()){
+            Node*temp=st.top();
+            st.pop();
+            if(temp){
+                st.push(temp->left);
+                st.push(temp->right);
+                swap(temp->left,temp->right);
+            }
+        }
+    }
+};
