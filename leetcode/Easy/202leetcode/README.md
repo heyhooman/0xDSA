@@ -1,28 +1,37 @@
-## 201. Bitwise AND of Numbers Range
-`Medium`
+## 202. Happy Number
+`Easy`
 
-Given two integers left and right that represent the range [left, right], return the bitwise AND of all numbers in this range, inclusive.
+
+Write an algorithm to determine if a number n is happy.
+
+A happy number is a number defined by the following process:
+
+- Starting with any positive integer, replace the number by the sum of the squares of its digits.
+- Repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1.
+- Those numbers for which this process ends in 1 are happy.
+
+Return `true` if `n` is a happy number, and `false` if not.
 
  
 
 Example 1:
 ```sh
-Input: left = 5, right = 7
-Output: 4
+Input: n = 19
+Output: true
+Explanation:
+12 + 92 = 82
+82 + 22 = 68
+62 + 82 = 100
+12 + 02 + 02 = 1
 ```
-
 Example 2:
 ```sh
-Input: left = 0, right = 0
-Output: 0
+Input: n = 2
+Output: false
 ```
+ 
 
-Example 3:
-```sh
-Input: left = 1, right = 2147483647
-Output: 0
-```
+Constraints:
 
-### Constraints:
+- `1 <= n <= 231 - 1`
 
-- 0 <= left <= right <= 231 - 1
