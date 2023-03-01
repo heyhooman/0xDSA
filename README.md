@@ -301,3 +301,7 @@ This github repository <a href="https://github.com/heyhooman/0xDSA">OxDSA</a> is
 <li class="has-line-data" data-line-start="276" data-line-end="277"><a href="https://leetcode.com/problems/maximum-erasure-value">https://leetcode.com/problems/maximum-erasure-value</a></li>
 <li class="has-line-data" data-line-start="277" data-line-end="278"><a href="https://leetcode.com/problems/distinct-numbers-in-each-subarray">https://leetcode.com/problems/distinct-numbers-in-each-subarray</a></li>
 </ul>
+<h3 class="code-line" data-line-start=0 data-line-end=1 ><a id="Hashmap_0"></a>Hashmap</h3>
+<ul>
+<li class="has-line-data" data-line-start="1" data-line-end="2"><a href="https://leetcode.com/problems/island-perimeter/">https://leetcode.com/problems/island-perimeter/</a></li>
+</ul>
