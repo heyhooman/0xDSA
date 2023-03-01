@@ -304,4 +304,5 @@ This github repository <a href="https://github.com/heyhooman/0xDSA">OxDSA</a> is
 <h3 class="code-line" data-line-start=0 data-line-end=1 ><a id="Hashmap_0"></a>Hashmap</h3>
 <ul>
 <li class="has-line-data" data-line-start="1" data-line-end="2"><a href="https://leetcode.com/problems/island-perimeter/">https://leetcode.com/problems/island-perimeter/</a></li>
+<li class="has-line-data" data-line-start="2" data-line-end="3"><a href="https://leetcode.com/problems/encode-and-decode-tinyurl/">https://leetcode.com/problems/encode-and-decode-tinyurl/</a></li>
 </ul>
