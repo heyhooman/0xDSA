@@ -17,9 +17,9 @@ This github repository <a href="https://github.com/heyhooman/0xDSA">OxDSA</a> is
 <h2 class="code-line" data-line-start=17 data-line-end=18 ><a id="Instructions_17"></a>Instructions:</h2>
 <ul>
 <li class="has-line-data" data-line-start="19" data-line-end="20">Create a root folder for the repository to keep all the files organized.</li>
-<li class="has-line-data" data-line-start="20" data-line-end="21">Create a separate folder for each question to keep them separate and easily accessible.</li>
+<li class="has-line-data" data-line-start="20" data-line-end="21">For create a new folder checkout already exists one and naming pattern.</li>
 <li class="has-line-data" data-line-start="21" data-line-end="22">Create a <a href="http://readme.md">readme.md</a> file in each question folder to explain the problem and provide a brief overview of the solution.</li>
-<li class="has-line-data" data-line-start="22" data-line-end="23">Use meaningful names for the folders and files to make it easier to understand and maintain.</li>
+<li class="has-line-data" data-line-start="22" data-line-end="23">Use meaningful names for the folders and files to make it easier to understand and maintain, for gfg using question name as folder name in Pascal case.</li>
 <li class="has-line-data" data-line-start="23" data-line-end="24">Keep the solution code in the respective question folder to maintain the structure of the repository.</li>
 <li class="has-line-data" data-line-start="24" data-line-end="25">Use clear and concise language in the <a href="http://readme.md">readme.md</a> files to explain the problem and solution.</li>
 <li class="has-line-data" data-line-start="25" data-line-end="26">Include any necessary information or resources required to understand the solution in the <a href="http://README.md">README.md</a> file.</li>
